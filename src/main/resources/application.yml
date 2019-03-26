@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: common-service
+
+server:
+  port: 8484
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8181/eureka
